@@ -1,10 +1,12 @@
 package com.mikelzuzu.dipetclinic.model;
 
+import java.util.Date;
+
 public class Pet {
 
     private PetType petType;
     private Owner owner;
-    private LocalDate birthDate;
+    private Date birthDate;
 
     public PetType getPetType() {
         return petType;
@@ -22,11 +24,11 @@ public class Pet {
         this.owner = owner;
     }
 
-    public LocalDate getBirthDate() {
+    public Date getBirthDate() {
         return birthDate;
     }
 
-    public void setBirthDate(LocalDate birthDate) {
+    public void setBirthDate(Date birthDate) {
         this.birthDate = birthDate;
     }
 }

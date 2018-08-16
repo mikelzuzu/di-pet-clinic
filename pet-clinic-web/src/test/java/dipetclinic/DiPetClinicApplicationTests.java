@@ -1,4 +1,4 @@
-package com.mikelzuzu.dipetclinic;
+package dipetclinic;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
