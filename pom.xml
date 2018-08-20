@@ -46,7 +46,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/mikelzuzu/di-pet-clinic.git</developerConnection>
-      <tag>di-pet-clinic-0.0.1</tag>
+      <tag>di-pet-clinic-0.0.2</tag>
   </scm>
 
 
