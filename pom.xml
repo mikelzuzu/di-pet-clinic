@@ -4,7 +4,7 @@
 
     <groupId>com.mikelzuzu</groupId>
     <artifactId>di-pet-clinic</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>pet-clinic-web</module>
         <module>pet-clinic-data</module>
@@ -38,7 +38,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goals>install</goals>
-                    <!--<autoVersionSubmodules>true</autoVersionSubmodules>-->
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
         </plugins>
